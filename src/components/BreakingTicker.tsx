@@ -14,7 +14,7 @@ export default function BreakingTicker({ labelBreaking, news }: Props) {
       </span>
       <div className="relative w-full overflow-hidden whitespace-nowrap text-xs sm:text-sm font-medium">
         <div className="inline-block animate-[marquee_30s_linear_infinite] hover:pause">
-          {news && news.length > 0 ? news.map((n) => ` • ${n.title} `) : '२४/७ नிरबिচ्छिन्न संवाद परिबेशनай स्वागतम... '}
+          {news && news.length > 0 ? news.map((n) => ` • ${n.title} `) : '२४/७ निरबिच्छिन्न संवाद परिबेशनай स्वागतम... '}
         </div>
       </div>
     </div>
