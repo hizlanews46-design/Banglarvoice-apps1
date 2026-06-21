@@ -29,7 +29,7 @@ export default function SidebarHub({ labelEPaper, labelPoll }: Props) {
           <h3 className="text-sm font-bold text-gray-900 uppercase tracking-wide">{labelPoll}</h3>
         </div>
         <div className="space-y-3">
-          <p className="text-xs text-gray-700 font-medium leading-relaxed">आपनी कि मने कराें कृत्रिम बुद्धिमत्ता (AI) प्रयुक्ति ब्यबहारकी फलमा संवादमाध्यमकी निरपेक्षता बृद्धि पाबে?</p>
+          <p className="text-xs text-gray-700 font-medium leading-relaxed">आपनी कि मने कराें कृत्रिम बुद्धिमत्ता (AI) प्रयुक्ति ब्यबहारकी फलमा संवादमाध्यमकी निरपेक्षता बृद्धि पाबे?</p>
           <div className="space-y-2 pt-1">
             <button className="w-full text-left bg-gray-50 hover:bg-gray-100 text-xs text-gray-800 px-3 py-2.5 rounded-lg border border-gray-200/60 font-medium transition-colors flex justify-between"><span>हो (Yes)</span><span className="text-gray-400">62%</span></button>
             <button className="w-full text-left bg-gray-50 hover:bg-gray-100 text-xs text-gray-800 px-3 py-2.5 rounded-lg border border-gray-200/60 font-medium transition-colors flex justify-between"><span>होइन (No)</span><span className="text-gray-400">29%</span></button>
