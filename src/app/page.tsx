@@ -12,7 +12,7 @@ import { decode } from '../lib/decode';
 export default async function Page() {
   const news = (await getAutomatedNews()) as NewsItem[] || [];
 
-  // Decode labels once on the server and pass to components (avoids using Buffer on client)
+  // Decode labels once on the server (avoids using Buffer on client)
   const labelBreaking = decode('4Kas4KeN4Kaw4KaV4KaXIOC4quC4p+C4oeC4reC4p+C4p+C4qiA=');
   const labelStudio = decode('4Kay4Ka+4KaH4KatIOC4quC4n+C4p+C4oeC4quC4vyAoQUkp');
   const labelSports = decode('4Kay4Ka+4KaH4KatIOC4quC4leC4reC4quC4leC4reC4o+C4p+C4qiA=');
@@ -41,7 +41,12 @@ export default async function Page() {
         </div>
       </div>
 
-      <style jsx global>{`\n        @keyframes marquee {\n          0% { transform: translate3d(0, 0, 0); }\n          100% { transform: translate3d(-50%, 0, 0); }\n        }\n      `}</style>
+      <style jsx global>{`
+        @keyframes marquee {
+          0% { transform: translate3d(0, 0, 0); }
+          100% { transform: translate3d(-50%, 0, 0); }
+        }
+      `}</style>
     </div>
   );
 }

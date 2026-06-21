@@ -26,7 +26,7 @@ export default function StudioCard({ labelStudio }: Props) {
         </div>
 
         <div className="absolute bottom-3 right-3 left-3 bg-black/60 backdrop-blur-md p-2 rounded-lg border border-white/10 text-center text-xs text-gray-200 line-clamp-1">
-          সর্বশেষ গুরুত্বপূর্ণ সংবাদ উপস্থাপনা করছেন কৃত্রিম বুদ্ধিমত্তার সুদর্শন এশীয় মডেল প্রতিনিধি।
+          सर्वश्रेष्ठ गुरुत्वपूर्ण संवाद उपस्थापना कर्रहें कृत्रिम बुद्धिमत्ता की सुदर्शन एशीय मडेल प्रतिनिधि।
         </div>
       </div>
     </div>
